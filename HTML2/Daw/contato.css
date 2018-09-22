@@ -1,0 +1,56 @@
+		a{color: white}
+		 body{ background-image: linear-gradient(black,purple, gray);
+            font-family: sans-serif}
+        h2 {color:yellow;}
+        h3 {color:#8B658B}
+        div {color: red; text-align: center}
+       /*fieldset{ background-image: url(Imagens/dbz.jpeg);
+		 	  background-repeat: no-repeat;
+		      background-position: center center;*/
+ 			  background-size: 50% ;}	
+       }
+       div{text-align: center}
+
+       img
+       {
+           /*background-color: aqua;*/
+           animation: animacao1 10s;
+           animation-iteration-count: infinite;
+           animation-fill-mode: forwards;
+
+       }
+
+
+
+       @keyframes animacao1 {
+           from {
+               /*background: blue;*/
+               width: 1%;
+               height: 0.5%;
+       }
+       to {
+           /*background: gray;*/
+           width:25%;
+           height: 20%;
+       }
+
+
+        img:hover {
+         transform: scale(3,2) /*skew(45deg,30deg)*/;
+         transition-delay: 0s;
+         transition-duration: 5s;
+         transition-timing-function:ease;
+       }
+
+       @media only screen and (max-width: 375px) {
+        body {
+          font-size: 10px;
+        }
+      }
+
+      @media only screen and ((min-width: 1024px) and (max-width: 1440px)) {
+        body {
+          font-size: 30px;
+        }
+      }
+          

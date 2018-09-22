@@ -1,0 +1,17 @@
+1° Entrando em desktop com "cd Desktop"
+2° Criando uma pasta com "mkdir"
+3° Inicializando repositório com "git init"
+4° Adicionei os arquivos HTML com "git add"
+5° Fiz remote local com o github com "git remote"
+6° Dei um commit para demostrar as ações paralisadas com "git commit"
+7° Upei os arquivos para o github com o "git  push"
+8° Dei um "git status" para averiguar a situação do repositório local
+9° "Git clone" para 'baixar' os arquivos a fazer
+10° Após alterar, "git add", para adicionar os remanescentes
+11° "Git commit" para demarcar a altereção
+12° "Git push" para upar os arquivos alterados
+13° "Touch Relatório.txt" para criar arquivo de texto, para desmontrar passos seguidos
+14° "Git add" para adicionar ao local o txt
+15° "Git commit" para demarcar a criação e adição do arquivo
+16° "Git push" para upar tudo, e finalizar o serviço.
+

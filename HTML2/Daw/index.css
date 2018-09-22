@@ -1,0 +1,17 @@
+		h2 {color: gold; text-align:center;
+			text-shadow: 10px 10px 10px purple,-10px -10px 10px blue;}
+		body { background-image: linear-gradient(black,purple, gray);
+		  margin-left: 0%;
+		  margin-right:0%;
+		  margin-bottom: 0%;
+		  margin-top: 0%;
+		  /*border: 5px solid red;*/
+		  padding: 5px 5px 5px  5px;
+		  font-family: sans-serif; }
+		 div {color:white;
+		 	  text-align: center;} 
+		 figure{text-align:center;}
+		 img{width: 40%;
+		     height: 45%;}
+        
+        

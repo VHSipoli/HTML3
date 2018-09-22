@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Cadastro </title>
+	<link rel="icon" href="imagens/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="iniciativa_vigadores 1.css"> 
+
+</head>
+<body>
+	<div>
+	|
+    <a href="index.html">Home</a>
+    |
+    <a href="contato.html">Contato</a>
+    |
+    <a href="sobre.html">Sobre Nós</a>
+	|
+    <a name="Voltar_ao_Top"> </a>
+	</div>
+    
+	<figure>	
+		<img id="avegers" src="Imagens/Avengers_Initiative.png" >
+		<br>
+		<br>
+	</figure>
+	
+	
+				<h1> Iniciativa Vingadores </h1>
+	<form>
+
+
+			<legend> <h2>Cadastro para lhe indentificarmos.</h2>	</legend>
+		<label>Nome: <br></label>
+			<input type="text" size="50" maxlength="30" minlength="10" required placeholder="Digite seu nome completo" name="nome"> <br>
+		<br>
+		<br>
+		<label>Idade: <br></label>
+			<input type="number" size="2" placeholder="Digite sua Idade" min="0"
+			minlength="2"  required name="idade" maxlength="2"> <br>
+		<br>
+		<br>
+		<label>Nacionalidade: <br></label>
+			<input type="text" size="50" maxlength="30" minlength="10" required placeholder="Digite sua nacionalidade" name="nacionalidade"> <br>
+		<br>
+		<br>
+		<label>Identidade secreta:<br></label>
+			<input type="text" name="identidade" placeholder="Sua identidade secreta">
+		<br>
+		<br>
+		<label>Senha: <br></label>
+			<input type="password" placeholder="Senha" required minlength="8" maxlength="10" name="senha">
+		<br>
+		<br>
+		<label>Data de Nascimento<br></label>
+			<input type="date" name="dataNascimento" required>
+		<br>
+		<br>
+		<label>Mande seu projeto de uniforme:<br></label>
+			<input type="file" name="foto" accept=".jpg, .png, .gif">
+		<br>
+		<br>
+		<label>Escolha uma cor</label>
+		<input type="color">
+		<br>
+		<br>
+		<label>Como você se define:</label>
+		<br>
+		<br>
+		
+			<input type="checkbox" name="sexo" value="Masc"><label for="Masc">M</label>
+			<input type="checkbox" name="sexo" value="Fem"><label for="Fem">F</label>
+			<input type="checkbox" name="sexo" value="Indefinido"><label for="Indefinido">I</label>
+		<br>
+		<br>
+		<label>Descreva seus poderes</label>
+		<br>
+			<textarea rows="5" cols="40"> </textarea>
+		<br>
+		<br>
+        <label>Etnia: </label>
+		<br>
+		<br>
+			<select name="etnia">
+				<option></option>
+				<option value="pardo"> Pardo </option>
+				<option value="branco"> Branco </option>
+				<option value="negro"> Negro </option>
+				<option value="amarelo"> Amarelo </option>
+				<option value="azul"> Azul </option>
+				<option value="wakanda"> Especial</option>
+			</select>
+		<br>
+		<br>
+		<label>Usa alguma arma?:</label>
+		<br>
+		<br>
+			<select name="arma" size="2" multiple>
+				<option value="Escudo"> Escudo </option>
+				<option value="Armadura"> Armadura </option>
+				<option value="Arco"> Arco </option>
+				<option value="Marreta"> Marreta </option>
+				<option value="Manopla"> Manopla</option>
+				<option value="Lança"> Lança</option>
+				<option value="Teia"> Teia</option>
+				<option value="artefato"> Artefato do Universo</option>
+				<option value="mãos"> Próprias Mãos</option>
+				<option value="brancas">Armas Branca</option>
+				<option value="fogo">Armas de Fogo</option>
+			</select>
+		<br>
+		<br>
+       <label> E-mail para contato:</label> 
+        <br>
+        <br>
+       		 <input type="email" name="email" id="email" placeholder="e-mail">
+        <br>
+        <br>
+       <label> Buscar sobre nosso Projeto:</label>
+        <br>
+        	<input type="search" name="Buscar" id="Buscar" placeholder="termo da pesquisa">
+        <br>
+        <br>
+        	
+        <br>
+        <br>
+			<input type="submit" value="Salvar">
+       			<input type= "button" value="Nós temos o Hulk" 
+       			onclick= "alert('NÃO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!');">
+        	<a href="#Voltar_ao_Top"><h3> Deus é top </h3> </a>
+		<br>
+		<br>
+</form>
+</body>
+</html>

@@ -1,0 +1,59 @@
+		body {background-image: url('Imagens/nickfury.jpg');
+		      background-repeat: no-repeat;
+		      background-position: auto;
+		      background-size: 100% ;
+			  margin-right: 5%;
+			  margin-left: 5%;
+			 font-family: sans-serif;}
+
+	 	h1, h2 {color: #CD9B1D ;text-align: center;}
+
+	 	figure { width: 20%;
+			    height: 30%;
+	 	         /*padding: 5%;*/
+	 			 text-align: right;
+		 	     opacity: 0.6;}
+
+	 	div {color:purple;
+	 		text-align: right;
+	 		margin-right: 2%}
+
+
+	 	 label {color:#EEAD0E;}
+
+		.formataInput {
+				width: 80%;
+				height: 30%;
+				margin-top: 5%;
+            	background-color: pink;
+           	 	border-radius: 10%;}                
+
+		textarea,select,input:hover {
+			background-color: gray;
+			border-color: green;}
+
+		textarea,select,input:focus {
+			background-color: white;
+			border-color: green;} 
+	 	form{
+	 		text-align: center
+	 	}
+	 	
+	 	@media print {
+	 		div, figure {
+	 			display:none;
+	 		}
+	 	}
+	 	
+	 	
+	 	 @media only screen and (max-width: 375px) {
+        body {
+          font-size: 10px;
+        }
+    	}
+
+   	 	@media only screen and ((min-width: 1024px) and (max-width: 1440px)) {
+        body {
+          font-size: 30px;
+        }
+   		}
